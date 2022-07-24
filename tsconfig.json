@@ -7,7 +7,7 @@
 		"allowUnusedLabels": false,
 		"exactOptionalPropertyTypes": true,
 		"strict": true,
-		"module": "ESNext",
+		"module": "CommonJS",
 		"moduleResolution": "Node",
 		"esModuleInterop": true,
 

@@ -1,12 +1,15 @@
-import { WORDS } from './word_list';
-export class Engine {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Engine = void 0;
+const word_list_1 = require("./word_list");
+class Engine {
     WORDS;
     ANSWER;
     TRIES_LEFT;
     constructor(config) {
-        this.ANSWER = config?.ANSWER || this.getRandom(WORDS);
+        this.ANSWER = config?.ANSWER || this.getRandom(word_list_1.WORDS);
         this.TRIES_LEFT = config?.TRIES_LEFT ?? 6;
-        this.WORDS = config?.WORDS || WORDS;
+        this.WORDS = config?.WORDS || word_list_1.WORDS;
     }
     getRandom(arr) {
         return arr[Math.floor(Math.random() * arr.length)];
@@ -84,3 +87,4 @@ export class Engine {
         return data;
     }
 }
+exports.Engine = Engine;

@@ -1,4 +1,7 @@
-export const WORDS = [
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.WORDS = void 0;
+exports.WORDS = [
     "ABUSE",
     "ADULT",
     "AGENT",
