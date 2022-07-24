@@ -1,0 +1,55 @@
+{
+  "name": "wordle.engine",
+  "homepage": "https://github.com/AmitKumarHQ/wordle.engine/",
+  "description": "An Advanced wordle engine",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/@types",
+  "keywords": [
+    "wordle",
+    "discord.js",
+    "engine",
+    "game"
+  ],
+  "scripts": {
+    "test": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepare": "npm run build",
+    "publish": "npm publish --access public",
+    "semantic-release": "semantic-release",
+    "commit-cz": "git cz"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmitKumarHQ/wordle.engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmitKumarHQ/wordle.engine/issues"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^19.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

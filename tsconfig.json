@@ -1,0 +1,38 @@
+{
+	"compileOnSave": true,
+
+	"compilerOptions": {
+		// Type Checking
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"exactOptionalPropertyTypes": true,
+		"strict": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+
+		// Paths
+		"baseUrl": ".",
+		"paths": {},
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"declarationDir": "./dist/@types",
+
+		// Emit
+		"declaration": true,
+		"declarationMap": true,
+		"importHelpers": true,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"noEmitOnError": true,
+		"noImplicitAny": false,
+		"allowSyntheticDefaultImports": true,
+
+		// Languages and Environment
+		"lib": ["ESNext"],
+		"target": "ESNext",
+	},
+
+	"include": ["src"],
+	"exclude": ["node_modules", "types/tests"]
+}
