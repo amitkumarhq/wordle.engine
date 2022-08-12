@@ -1,4 +1,4 @@
-import { WORDS } from './word_list';
+import { WORDS } from './word_list.js';
 export class Engine {
     WORDS;
     ANSWER;
@@ -44,7 +44,9 @@ export class Engine {
         const TRIES_LEFT = this.TRIES_LEFT;
         const gameState = true;
         return {
-            answer, TRIES_LEFT, gameState,
+            answer,
+            TRIES_LEFT,
+            gameState,
         };
     }
     stopGame() {
@@ -62,22 +64,22 @@ export class Engine {
         if (!docs.isValid) {
             return docs.reason;
         }
-        ;
         let guessableLetters = [...answer];
         let response = [];
         for (let i in guess) {
             if (guess[i] === answer[i]) {
-                response.push('🟩'); // CORRECT
+                // CORRECT
+                response.push('🟩');
             }
             else if (guessableLetters.includes(guess[i])) {
-                response.push('🟨'); // WRONG
-                // Sets the array to 'null' at that indexOf()
-                delete guessableLetters[guessableLetters.indexOf(guess[i])];
-                // Removes the 'null' value
-                guessableLetters = guessableLetters.filter(e => e);
+                // WRONG
+                response.push('🟨');
+                delete guessableLetters[guessableLetters.indexOf(guess[i])]; // Sets the array to 'null' at that indexOf()
+                guessableLetters = guessableLetters.filter((e) => e); // Removes the 'null' value
             }
             else {
-                response.push('⬛'); // ABSENT
+                // ABSENT
+                response.push('⬛');
             }
         }
         let data = response.join(' ').toString();

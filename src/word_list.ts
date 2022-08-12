@@ -1,1195 +1,1195 @@
 export const WORDS: string[] = [
-	"ABUSE",
+    'ABUSE',
 
-	"ADULT",
+    'ADULT',
 
-	"AGENT",
+    'AGENT',
 
-	"ANGER",
+    'ANGER',
 
-	"APPLE",
+    'APPLE',
 
-	"AWARD",
+    'AWARD',
 
-	"BASIS",
+    'BASIS',
 
-	"BEACH",
+    'BEACH',
 
-	"BIRTH",
+    'BIRTH',
 
-	"BLOCK",
+    'BLOCK',
 
-	"BLOOD",
+    'BLOOD',
 
-	"BOARD",
+    'BOARD',
 
-	"BRAIN",
+    'BRAIN',
 
-	"BREAD",
+    'BREAD',
 
-	"BREAK",
+    'BREAK',
 
-	"BROWN",
+    'BROWN',
 
-	"BUYER",
+    'BUYER',
 
-	"CAUSE",
+    'CAUSE',
 
-	"CHAIN",
+    'CHAIN',
 
-	"CHAIR",
+    'CHAIR',
 
-	"CHEST",
+    'CHEST',
 
-	"CHIEF",
+    'CHIEF',
 
-	"CHILD",
+    'CHILD',
 
-	"CHINA",
+    'CHINA',
 
-	"CLAIM",
+    'CLAIM',
 
-	"CLASS",
+    'CLASS',
 
-	"CLOCK",
+    'CLOCK',
 
-	"COACH",
+    'COACH',
 
-	"COAST",
+    'COAST',
 
-	"COURT",
+    'COURT',
 
-	"COVER",
+    'COVER',
 
-	"CREAM",
+    'CREAM',
 
-	"CRIME",
+    'CRIME',
 
-	"CROSS",
+    'CROSS',
 
-	"CROWD",
+    'CROWD',
 
-	"CROWN",
+    'CROWN',
 
-	"CYCLE",
+    'CYCLE',
 
-	"DANCE",
+    'DANCE',
 
-	"DEATH",
+    'DEATH',
 
-	"DEPTH",
+    'DEPTH',
 
-	"DOUBT",
+    'DOUBT',
 
-	"DRAFT",
+    'DRAFT',
 
-	"DRAMA",
+    'DRAMA',
 
-	"DREAM",
+    'DREAM',
 
-	"DRESS",
+    'DRESS',
 
-	"DRINK",
+    'DRINK',
 
-	"DRIVE",
+    'DRIVE',
 
-	"EARTH",
+    'EARTH',
 
-	"ENEMY",
+    'ENEMY',
 
-	"ENTRY",
+    'ENTRY',
 
-	"ERROR",
+    'ERROR',
 
-	"EVENT",
+    'EVENT',
 
-	"FAITH",
+    'FAITH',
 
-	"FAULT",
+    'FAULT',
 
-	"FIELD",
+    'FIELD',
 
-	"FIGHT",
+    'FIGHT',
 
-	"FINAL",
+    'FINAL',
 
-	"FLOOR",
+    'FLOOR',
 
-	"FOCUS",
+    'FOCUS',
 
-	"FORCE",
+    'FORCE',
 
-	"FRAME",
+    'FRAME',
 
-	"FRANK",
+    'FRANK',
 
-	"FRONT",
+    'FRONT',
 
-	"FRUIT",
+    'FRUIT',
 
-	"GLASS",
+    'GLASS',
 
-	"GRANT",
+    'GRANT',
 
-	"GRASS",
+    'GRASS',
 
-	"GREEN",
+    'GREEN',
 
-	"GROUP",
+    'GROUP',
 
-	"GUIDE",
+    'GUIDE',
 
-	"HEART",
+    'HEART',
 
-	"HENRY",
+    'HENRY',
 
-	"HORSE",
+    'HORSE',
 
-	"HOTEL",
+    'HOTEL',
 
-	"HOUSE",
+    'HOUSE',
 
-	"IMAGE",
+    'IMAGE',
 
-	"INDEX",
+    'INDEX',
 
-	"INPUT",
+    'INPUT',
 
-	"ISSUE",
+    'ISSUE',
 
-	"JAPAN",
+    'JAPAN',
 
-	"JONES",
+    'JONES',
 
-	"JUDGE",
+    'JUDGE',
 
-	"KNIFE",
+    'KNIFE',
 
-	"LAURA",
+    'LAURA',
 
-	"LAYER",
+    'LAYER',
 
-	"LEVEL",
+    'LEVEL',
 
-	"LEWIS",
+    'LEWIS',
 
-	"LIGHT",
+    'LIGHT',
 
-	"LIMIT",
+    'LIMIT',
 
-	"LUNCH",
+    'LUNCH',
 
-	"MAJOR",
+    'MAJOR',
 
-	"MARCH",
+    'MARCH',
 
-	"MATCH",
+    'MATCH',
 
-	"METAL",
+    'METAL',
 
-	"MODEL",
+    'MODEL',
 
-	"MONEY",
+    'MONEY',
 
-	"MONTH",
+    'MONTH',
 
-	"MOTOR",
+    'MOTOR',
 
-	"MOUTH",
+    'MOUTH',
 
-	"MUSIC",
+    'MUSIC',
 
-	"NIGHT",
+    'NIGHT',
 
-	"NOISE",
+    'NOISE',
 
-	"NORTH",
+    'NORTH',
 
-	"NOVEL",
+    'NOVEL',
 
-	"NURSE",
+    'NURSE',
 
-	"OFFER",
+    'OFFER',
 
-	"ORDER",
+    'ORDER',
 
-	"OTHER",
+    'OTHER',
 
-	"OWNER",
+    'OWNER',
 
-	"PANEL",
+    'PANEL',
 
-	"PAPER",
+    'PAPER',
 
-	"PARTY",
+    'PARTY',
 
-	"PEACE",
+    'PEACE',
 
-	"PETER",
+    'PETER',
 
-	"PHASE",
+    'PHASE',
 
-	"PHONE",
+    'PHONE',
 
-	"PIECE",
+    'PIECE',
 
-	"PILOT",
+    'PILOT',
 
-	"PITCH",
+    'PITCH',
 
-	"PLACE",
+    'PLACE',
 
-	"PLANE",
+    'PLANE',
 
-	"PLANT",
+    'PLANT',
 
-	"PLATE",
+    'PLATE',
 
-	"POINT",
+    'POINT',
 
-	"POUND",
+    'POUND',
 
-	"POWER",
+    'POWER',
 
-	"PRESS",
+    'PRESS',
 
-	"PRICE",
+    'PRICE',
 
-	"PRIDE",
+    'PRIDE',
 
-	"PRIZE",
+    'PRIZE',
 
-	"PROOF",
+    'PROOF',
 
-	"QUEEN",
+    'QUEEN',
 
-	"RADIO",
+    'RADIO',
 
-	"RANGE",
+    'RANGE',
 
-	"RATIO",
+    'RATIO',
 
-	"REPLY",
+    'REPLY',
 
-	"RIGHT",
+    'RIGHT',
 
-	"RIVER",
+    'RIVER',
 
-	"ROUND",
+    'ROUND',
 
-	"ROUTE",
+    'ROUTE',
 
-	"RUGBY",
+    'RUGBY',
 
-	"SCALE",
+    'SCALE',
 
-	"SCENE",
+    'SCENE',
 
-	"SCOPE",
+    'SCOPE',
 
-	"SCORE",
+    'SCORE',
 
-	"SENSE",
+    'SENSE',
 
-	"SHAPE",
+    'SHAPE',
 
-	"SHARE",
+    'SHARE',
 
-	"SHEEP",
+    'SHEEP',
 
-	"SHEET",
+    'SHEET',
 
-	"SHIFT",
+    'SHIFT',
 
-	"SHIRT",
+    'SHIRT',
 
-	"SHOCK",
+    'SHOCK',
 
-	"SIGHT",
+    'SIGHT',
 
-	"SIMON",
+    'SIMON',
 
-	"SKILL",
+    'SKILL',
 
-	"SLEEP",
+    'SLEEP',
 
-	"SMILE",
+    'SMILE',
 
-	"SMITH",
+    'SMITH',
 
-	"SMOKE",
+    'SMOKE',
 
-	"SOUND",
+    'SOUND',
 
-	"SOUTH",
+    'SOUTH',
 
-	"SPACE",
+    'SPACE',
 
-	"SPEED",
+    'SPEED',
 
-	"SPITE",
+    'SPITE',
 
-	"SPORT",
+    'SPORT',
 
-	"SQUAD",
+    'SQUAD',
 
-	"STAFF",
+    'STAFF',
 
-	"STAGE",
+    'STAGE',
 
-	"START",
+    'START',
 
-	"STATE",
+    'STATE',
 
-	"STEAM",
+    'STEAM',
 
-	"STEEL",
+    'STEEL',
 
-	"STOCK",
+    'STOCK',
 
-	"STONE",
+    'STONE',
 
-	"STORE",
+    'STORE',
 
-	"STUDY",
+    'STUDY',
 
-	"STUFF",
+    'STUFF',
 
-	"STYLE",
+    'STYLE',
 
-	"SUGAR",
+    'SUGAR',
 
-	"TABLE",
+    'TABLE',
 
-	"TASTE",
+    'TASTE',
 
-	"TERRY",
+    'TERRY',
 
-	"THEME",
+    'THEME',
 
-	"THING",
+    'THING',
 
-	"TITLE",
+    'TITLE',
 
-	"TOTAL",
+    'TOTAL',
 
-	"TOUCH",
+    'TOUCH',
 
-	"TOWER",
+    'TOWER',
 
-	"TRACK",
+    'TRACK',
 
-	"TRADE",
+    'TRADE',
 
-	"TRAIN",
+    'TRAIN',
 
-	"TREND",
+    'TREND',
 
-	"TRIAL",
+    'TRIAL',
 
-	"TRUST",
+    'TRUST',
 
-	"TRUTH",
+    'TRUTH',
 
-	"UNCLE",
+    'UNCLE',
 
-	"UNION",
+    'UNION',
 
-	"UNITY",
+    'UNITY',
 
-	"VALUE",
+    'VALUE',
 
-	"VIDEO",
+    'VIDEO',
 
-	"VISIT",
+    'VISIT',
 
-	"VOICE",
+    'VOICE',
 
-	"WASTE",
+    'WASTE',
 
-	"WATCH",
+    'WATCH',
 
-	"WATER",
+    'WATER',
 
-	"WHILE",
+    'WHILE',
 
-	"WHITE",
+    'WHITE',
 
-	"WHOLE",
+    'WHOLE',
 
-	"WOMAN",
+    'WOMAN',
 
-	"WORLD",
+    'WORLD',
 
-	"YOUTH",
+    'YOUTH',
 
-	"ALCON",
+    'ALCON',
 
-	"AUGHT",
+    'AUGHT',
 
-	"HELLA",
+    'HELLA',
 
-	"ONE’S",
+    'ONE’S',
 
-	"OUGHT",
+    'OUGHT',
 
-	"THAME",
+    'THAME',
 
-	"THERE",
+    'THERE',
 
-	"THINE",
+    'THINE',
 
-	"THINE",
+    'THINE',
 
-	"WHERE",
+    'WHERE',
 
-	"WHICH",
+    'WHICH',
 
-	"WHOSE",
+    'WHOSE',
 
-	"WHOSO",
+    'WHOSO',
 
-	"YOURS",
+    'YOURS',
 
-	"YOURS",
+    'YOURS',
 
-	"ADMIT",
+    'ADMIT',
 
-	"ADOPT",
+    'ADOPT',
 
-	"AGREE",
+    'AGREE',
 
-	"ALLOW",
+    'ALLOW',
 
-	"ALTER",
+    'ALTER',
 
-	"APPLY",
+    'APPLY',
 
-	"ARGUE",
+    'ARGUE',
 
-	"ARISE",
+    'ARISE',
 
-	"AVOID",
+    'AVOID',
 
-	"BEGIN",
+    'BEGIN',
 
-	"BLAME",
+    'BLAME',
 
-	"BREAK",
+    'BREAK',
 
-	"BRING",
+    'BRING',
 
-	"BUILD",
+    'BUILD',
 
-	"BURST",
+    'BURST',
 
-	"CARRY",
+    'CARRY',
 
-	"CATCH",
+    'CATCH',
 
-	"CAUSE",
+    'CAUSE',
 
-	"CHECK",
+    'CHECK',
 
-	"CLAIM",
+    'CLAIM',
 
-	"CLEAN",
+    'CLEAN',
 
-	"CLEAR",
+    'CLEAR',
 
-	"CLIMB",
+    'CLIMB',
 
-	"CLOSE",
+    'CLOSE',
 
-	"COUNT",
+    'COUNT',
 
-	"COVER",
+    'COVER',
 
-	"CROSS",
+    'CROSS',
 
-	"DANCE",
+    'DANCE',
 
-	"DOUBT",
+    'DOUBT',
 
-	"DRINK",
+    'DRINK',
 
-	"DRIVE",
+    'DRIVE',
 
-	"ENJOY",
+    'ENJOY',
 
-	"ENTER",
+    'ENTER',
 
-	"EXIST",
+    'EXIST',
 
-	"FIGHT",
+    'FIGHT',
 
-	"FOCUS",
+    'FOCUS',
 
-	"FORCE",
+    'FORCE',
 
-	"GUESS",
+    'GUESS',
 
-	"IMPLY",
+    'IMPLY',
 
-	"ISSUE",
+    'ISSUE',
 
-	"JUDGE",
+    'JUDGE',
 
-	"LAUGH",
+    'LAUGH',
 
-	"LEARN",
+    'LEARN',
 
-	"LEAVE",
+    'LEAVE',
 
-	"LET’S",
+    'LET’S',
 
-	"LIMIT",
+    'LIMIT',
 
-	"MARRY",
+    'MARRY',
 
-	"MATCH",
+    'MATCH',
 
-	"OCCUR",
+    'OCCUR',
 
-	"OFFER",
+    'OFFER',
 
-	"ORDER",
+    'ORDER',
 
-	"PHONE",
+    'PHONE',
 
-	"PLACE",
+    'PLACE',
 
-	"POINT",
+    'POINT',
 
-	"PRESS",
+    'PRESS',
 
-	"PROVE",
+    'PROVE',
 
-	"RAISE",
+    'RAISE',
 
-	"REACH",
+    'REACH',
 
-	"REFER",
+    'REFER',
 
-	"RELAX",
+    'RELAX',
 
-	"SERVE",
+    'SERVE',
 
-	"SHALL",
+    'SHALL',
 
-	"SHARE",
+    'SHARE',
 
-	"SHIFT",
+    'SHIFT',
 
-	"SHOOT",
+    'SHOOT',
 
-	"SLEEP",
+    'SLEEP',
 
-	"SOLVE",
+    'SOLVE',
 
-	"SOUND",
+    'SOUND',
 
-	"SPEAK",
+    'SPEAK',
 
-	"SPEND",
+    'SPEND',
 
-	"SPLIT",
+    'SPLIT',
 
-	"STAND",
+    'STAND',
 
-	"START",
+    'START',
 
-	"STATE",
+    'STATE',
 
-	"STICK",
+    'STICK',
 
-	"STUDY",
+    'STUDY',
 
-	"TEACH",
+    'TEACH',
 
-	"THANK",
+    'THANK',
 
-	"THINK",
+    'THINK',
 
-	"THROW",
+    'THROW',
 
-	"TOUCH",
+    'TOUCH',
 
-	"TRAIN",
+    'TRAIN',
 
-	"TREAT",
+    'TREAT',
 
-	"TRUST",
+    'TRUST',
 
-	"VISIT",
+    'VISIT',
 
-	"VOICE",
+    'VOICE',
 
-	"WASTE",
+    'WASTE',
 
-	"WATCH",
+    'WATCH',
 
-	"WORRY",
+    'WORRY',
 
-	"WOULD",
+    'WOULD',
 
-	"WRITE",
+    'WRITE',
 
-	"ABOVE",
+    'ABOVE',
 
-	"ACUTE",
+    'ACUTE',
 
-	"ALIVE",
+    'ALIVE',
 
-	"ALONE",
+    'ALONE',
 
-	"ANGRY",
+    'ANGRY',
 
-	"AWARE",
+    'AWARE',
 
-	"AWFUL",
+    'AWFUL',
 
-	"BASIC",
+    'BASIC',
 
-	"BLACK",
+    'BLACK',
 
-	"BLIND",
+    'BLIND',
 
-	"BRAVE",
+    'BRAVE',
 
-	"BRIEF",
+    'BRIEF',
 
-	"BROAD",
+    'BROAD',
 
-	"BROWN",
+    'BROWN',
 
-	"CHEAP",
+    'CHEAP',
 
-	"CHIEF",
+    'CHIEF',
 
-	"CIVIL",
+    'CIVIL',
 
-	"CLEAN",
+    'CLEAN',
 
-	"CLEAR",
+    'CLEAR',
 
-	"CLOSE",
+    'CLOSE',
 
-	"CRAZY",
+    'CRAZY',
 
-	"DAILY",
+    'DAILY',
 
-	"DIRTY",
+    'DIRTY',
 
-	"EARLY",
+    'EARLY',
 
-	"EMPTY",
+    'EMPTY',
 
-	"EQUAL",
+    'EQUAL',
 
-	"EXACT",
+    'EXACT',
 
-	"EXTRA",
+    'EXTRA',
 
-	"FAINT",
+    'FAINT',
 
-	"FALSE",
+    'FALSE',
 
-	"FIFTH",
+    'FIFTH',
 
-	"FINAL",
+    'FINAL',
 
-	"FIRST",
+    'FIRST',
 
-	"FRESH",
+    'FRESH',
 
-	"FRONT",
+    'FRONT',
 
-	"FUNNY",
+    'FUNNY',
 
-	"GIANT",
+    'GIANT',
 
-	"GRAND",
+    'GRAND',
 
-	"GREAT",
+    'GREAT',
 
-	"GREEN",
+    'GREEN',
 
-	"GROSS",
+    'GROSS',
 
-	"HAPPY",
+    'HAPPY',
 
-	"HARSH",
+    'HARSH',
 
-	"HEAVY",
+    'HEAVY',
 
-	"HUMAN",
+    'HUMAN',
 
-	"IDEAL",
+    'IDEAL',
 
-	"INNER",
+    'INNER',
 
-	"JOINT",
+    'JOINT',
 
-	"LARGE",
+    'LARGE',
 
-	"LEGAL",
+    'LEGAL',
 
-	"LEVEL",
+    'LEVEL',
 
-	"LIGHT",
+    'LIGHT',
 
-	"LOCAL",
+    'LOCAL',
 
-	"LOOSE",
+    'LOOSE',
 
-	"LUCKY",
+    'LUCKY',
 
-	"MAGIC",
+    'MAGIC',
 
-	"MAJOR",
+    'MAJOR',
 
-	"MINOR",
+    'MINOR',
 
-	"MORAL",
+    'MORAL',
 
-	"NAKED",
+    'NAKED',
 
-	"NASTY",
+    'NASTY',
 
-	"NAVAL",
+    'NAVAL',
 
-	"OTHER",
+    'OTHER',
 
-	"OUTER",
+    'OUTER',
 
-	"PLAIN",
+    'PLAIN',
 
-	"PRIME",
+    'PRIME',
 
-	"PRIOR",
+    'PRIOR',
 
-	"PROUD",
+    'PROUD',
 
-	"QUICK",
+    'QUICK',
 
-	"QUIET",
+    'QUIET',
 
-	"RAPID",
+    'RAPID',
 
-	"READY",
+    'READY',
 
-	"RIGHT",
+    'RIGHT',
 
-	"ROMAN",
+    'ROMAN',
 
-	"ROUGH",
+    'ROUGH',
 
-	"ROUND",
+    'ROUND',
 
-	"ROYAL",
+    'ROYAL',
 
-	"RURAL",
+    'RURAL',
 
-	"SHARP",
+    'SHARP',
 
-	"SHEER",
+    'SHEER',
 
-	"SHORT",
+    'SHORT',
 
-	"SILLY",
+    'SILLY',
 
-	"SIXTH",
+    'SIXTH',
 
-	"SMALL",
+    'SMALL',
 
-	"SMART",
+    'SMART',
 
-	"SOLID",
+    'SOLID',
 
-	"SORRY",
+    'SORRY',
 
-	"SPARE",
+    'SPARE',
 
-	"STEEP",
+    'STEEP',
 
-	"STILL",
+    'STILL',
 
-	"SUPER",
+    'SUPER',
 
-	"SWEET",
+    'SWEET',
 
-	"THICK",
+    'THICK',
 
-	"THIRD",
+    'THIRD',
 
-	"TIGHT",
+    'TIGHT',
 
-	"TOTAL",
+    'TOTAL',
 
-	"TOUGH",
+    'TOUGH',
 
-	"UPPER",
+    'UPPER',
 
-	"UPSET",
+    'UPSET',
 
-	"URBAN",
+    'URBAN',
 
-	"USUAL",
+    'USUAL',
 
-	"VAGUE",
+    'VAGUE',
 
-	"VALID",
+    'VALID',
 
-	"VITAL",
+    'VITAL',
 
-	"WHITE",
+    'WHITE',
 
-	"WHOLE",
+    'WHOLE',
 
-	"WRONG",
+    'WRONG',
 
-	"YOUNG",
+    'YOUNG',
 
-	"AFORE",
+    'AFORE',
 
-	"AFTER",
+    'AFTER',
 
-	"BOTHE",
+    'BOTHE',
 
-	"OTHER",
+    'OTHER',
 
-	"SINCE",
+    'SINCE',
 
-	"SLASH",
+    'SLASH',
 
-	"UNTIL",
+    'UNTIL',
 
-	"WHERE",
+    'WHERE',
 
-	"WHILE",
+    'WHILE',
 
-	"ABACK",
+    'ABACK',
 
-	"ABAFT",
+    'ABAFT',
 
-	"ABOON",
+    'ABOON',
 
-	"ABOUT",
+    'ABOUT',
 
-	"ABOVE",
+    'ABOVE',
 
-	"ACCEL",
+    'ACCEL',
 
-	"ADOWN",
+    'ADOWN',
 
-	"AFOOT",
+    'AFOOT',
 
-	"AFORE",
+    'AFORE',
 
-	"AFOUL",
+    'AFOUL',
 
-	"AFTER",
+    'AFTER',
 
-	"AGAIN",
+    'AGAIN',
 
-	"AGAPE",
+    'AGAPE',
 
-	"AGOGO",
+    'AGOGO',
 
-	"AGONE",
+    'AGONE',
 
-	"AHEAD",
+    'AHEAD',
 
-	"AHULL",
+    'AHULL',
 
-	"ALIFE",
+    'ALIFE',
 
-	"ALIKE",
+    'ALIKE',
 
-	"ALINE",
+    'ALINE',
 
-	"ALOFT",
+    'ALOFT',
 
-	"ALONE",
+    'ALONE',
 
-	"ALONG",
+    'ALONG',
 
-	"ALOOF",
+    'ALOOF',
 
-	"ALOUD",
+    'ALOUD',
 
-	"AMISS",
+    'AMISS',
 
-	"AMPLY",
+    'AMPLY',
 
-	"AMUCK",
+    'AMUCK',
 
-	"APACE",
+    'APACE',
 
-	"APART",
+    'APART',
 
-	"APTLY",
+    'APTLY',
 
-	"AREAR",
+    'AREAR',
 
-	"ASIDE",
+    'ASIDE',
 
-	"ASKEW",
+    'ASKEW',
 
-	"AWFUL",
+    'AWFUL',
 
-	"BADLY",
+    'BADLY',
 
-	"BALLY",
+    'BALLY',
 
-	"BELOW",
+    'BELOW',
 
-	"CANNY",
+    'CANNY',
 
-	"CHEAP",
+    'CHEAP',
 
-	"CLEAN",
+    'CLEAN',
 
-	"CLEAR",
+    'CLEAR',
 
-	"COYLY",
+    'COYLY',
 
-	"DAILY",
+    'DAILY',
 
-	"DIMLY",
+    'DIMLY',
 
-	"DIRTY",
+    'DIRTY',
 
-	"DITTO",
+    'DITTO',
 
-	"DRILY",
+    'DRILY',
 
-	"DRYLY",
+    'DRYLY',
 
-	"DULLY",
+    'DULLY',
 
-	"EARLY",
+    'EARLY',
 
-	"EXTRA",
+    'EXTRA',
 
-	"FALSE",
+    'FALSE',
 
-	"FATLY",
+    'FATLY',
 
-	"FEYLY",
+    'FEYLY',
 
-	"FIRST",
+    'FIRST',
 
-	"FITLY",
+    'FITLY',
 
-	"FORTE",
+    'FORTE',
 
-	"FORTH",
+    'FORTH',
 
-	"FRESH",
+    'FRESH',
 
-	"FULLY",
+    'FULLY',
 
-	"FUNNY",
+    'FUNNY',
 
-	"GAILY",
+    'GAILY',
 
-	"GAYLY",
+    'GAYLY',
 
-	"GODLY",
+    'GODLY',
 
-	"GREAT",
+    'GREAT',
 
-	"HAPLY",
+    'HAPLY',
 
-	"HEAVY",
+    'HEAVY',
 
-	"HELLA",
+    'HELLA',
 
-	"HENCE",
+    'HENCE',
 
-	"HOTLY",
+    'HOTLY',
 
-	"ICILY",
+    'ICILY',
 
-	"INFRA",
+    'INFRA',
 
-	"INTL.",
+    'INTL.',
 
-	"JILDI",
+    'JILDI',
 
-	"JOLLY",
+    'JOLLY',
 
-	"LAXLY",
+    'LAXLY',
 
-	"LENTO",
+    'LENTO',
 
-	"LIGHT",
+    'LIGHT',
 
-	"LOWLY",
+    'LOWLY',
 
-	"MADLY",
+    'MADLY',
 
-	"MAYBE",
+    'MAYBE',
 
-	"NEVER",
+    'NEVER',
 
-	"NEWLY",
+    'NEWLY',
 
-	"NOBLY",
+    'NOBLY',
 
-	"ODDLY",
+    'ODDLY',
 
-	"OFTEN",
+    'OFTEN',
 
-	"OTHER",
+    'OTHER',
 
-	"OUGHT",
+    'OUGHT',
 
-	"PARTY",
+    'PARTY',
 
-	"PIANO",
+    'PIANO',
 
-	"PLAIN",
+    'PLAIN',
 
-	"PLONK",
+    'PLONK',
 
-	"PLUMB",
+    'PLUMB',
 
-	"PRIOR",
+    'PRIOR',
 
-	"QUEER",
+    'QUEER',
 
-	"QUICK",
+    'QUICK',
 
-	"QUITE",
+    'QUITE',
 
-	"RAMEN",
+    'RAMEN',
 
-	"RAPID",
+    'RAPID',
 
-	"REDLY",
+    'REDLY',
 
-	"RIGHT",
+    'RIGHT',
 
-	"ROUGH",
+    'ROUGH',
 
-	"ROUND",
+    'ROUND',
 
-	"SADLY",
+    'SADLY',
 
-	"SECUS",
+    'SECUS',
 
-	"SELLY",
+    'SELLY',
 
-	"SHARP",
+    'SHARP',
 
-	"SHEER",
+    'SHEER',
 
-	"SHILY",
+    'SHILY',
 
-	"SHORT",
+    'SHORT',
 
-	"SHYLY",
+    'SHYLY',
 
-	"SILLY",
+    'SILLY',
 
-	"SINCE",
+    'SINCE',
 
-	"SLEEK",
+    'SLEEK',
 
-	"SLYLY",
+    'SLYLY',
 
-	"SMALL",
+    'SMALL',
 
-	"SOUND",
+    'SOUND',
 
-	"SPANG",
+    'SPANG',
 
-	"SRSLY",
+    'SRSLY',
 
-	"STARK",
+    'STARK',
 
-	"STILL",
+    'STILL',
 
-	"STONE",
+    'STONE',
 
-	"STOUR",
+    'STOUR',
 
-	"SUPER",
+    'SUPER',
 
-	"TALLY",
+    'TALLY',
 
-	"TANTO",
+    'TANTO',
 
-	"THERE",
+    'THERE',
 
-	"THICK",
+    'THICK',
 
-	"TIGHT",
+    'TIGHT',
 
-	"TODAY",
+    'TODAY',
 
-	"TOMOZ",
+    'TOMOZ',
 
-	"TRULY",
+    'TRULY',
 
-	"TWICE",
+    'TWICE',
 
-	"UNDER",
+    'UNDER',
 
-	"UTTER",
+    'UTTER',
 
-	"VERRY",
+    'VERRY',
 
-	"WANLY",
+    'WANLY',
 
-	"WETLY",
+    'WETLY',
 
-	"WHERE",
+    'WHERE',
 
-	"WRONG",
+    'WRONG',
 
-	"WRYLY",
+    'WRYLY',
 
-	"ABAFT",
+    'ABAFT',
 
-	"ABOON",
+    'ABOON',
 
-	"ABOUT",
+    'ABOUT',
 
-	"ABOVE",
+    'ABOVE',
 
-	"ADOWN",
+    'ADOWN',
 
-	"AFORE",
+    'AFORE',
 
-	"AFTER",
+    'AFTER',
 
-	"ALONG",
+    'ALONG',
 
-	"ALOOF",
+    'ALOOF',
 
-	"AMONG",
+    'AMONG',
 
-	"BELOW",
+    'BELOW',
 
-	"CIRCA",
+    'CIRCA',
 
-	"CROSS",
+    'CROSS',
 
-	"FURTH",
+    'FURTH',
 
-	"MINUS",
+    'MINUS',
 
-	"NEATH",
+    'NEATH',
 
-	"ROUND",
+    'ROUND',
 
-	"SINCE",
+    'SINCE',
 
-	"SPITE",
+    'SPITE',
 
-	"UNDER",
+    'UNDER',
 ];

@@ -5,11 +5,11 @@ export interface GameConfig {
 }
 
 export interface SchemaData {
-    userId: number,
-    answer?: string,
-    gameState: boolean,
-    TRIES_LEFT: number,
-    description: any[],
+    userId: number;
+    answer?: string;
+    gameState: boolean;
+    TRIES_LEFT: number;
+    description: any[];
 }
 
 export interface isValidDocs {
