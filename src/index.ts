@@ -11,12 +11,10 @@ export class Engine {
         this.ANSWER = config?.ANSWER || this.getRandom(WORDS);
         this.TRIES_LEFT = config?.TRIES_LEFT ?? 6;
         this.WORDS = config?.WORDS || WORDS;
-
     }
 
     private getRandom<T>(arr: T[]): T {
         return arr[Math.floor(Math.random() * arr.length)];
-
     }
 
     private async isValidWord(word: string, arr: any[]): Promise<isValidDocs> {
@@ -24,29 +22,24 @@ export class Engine {
             if (!arr.includes(word)) {
                 reject({
                     isValid: false,
-                    reason: 'That word is not in the list',
+                    reason: "That word is not in the list",
                 });
-
             } else if (word.length !== 5) {
                 reject({
                     isValid: false,
-                    reason: `Guess word's length does not match the answer's length`,
+                    reason: "Guess word's length does not match the answer's length",
                 });
-
             } else if (!word.match(/[A-Z]/i)) {
                 reject({
                     isValid: false,
-                    reason: `Invalid characters used! Please use english letters instead`,
+                    reason: "Invalid characters used! Please use english letters instead",
                 });
-
             } else {
                 resolve({
                     isValid: true,
-                    reason: `Valid Word!`,
+                    reason: "Valid Word!",
                 });
-
             }
-
         });
 
     }
@@ -57,7 +50,9 @@ export class Engine {
         const gameState = true;
 
         return {
-            answer, TRIES_LEFT, gameState,
+            answer,
+            TRIES_LEFT,
+            gameState
         }
     }
 
@@ -69,17 +64,14 @@ export class Engine {
 		return {
 			answer,
             TRIES_LEFT,
-            gameState,
+            gameState
 		};
 	}
 
     public async guess(guess: any, answer: string) {
         const docs = await this.isValidWord(guess, this.WORDS);
 
-        if (!docs.isValid) {
-            return docs.reason;
-
-        };
+        if (!docs.isValid) return docs.reason;
         
         let guessableLetters = [...answer];
         let response: string[] = [];
@@ -87,7 +79,6 @@ export class Engine {
         for (let i in guess) {
             if (guess[i] === answer[i]) {
                 response.push('🟩'); // CORRECT
-
             } else if (guessableLetters.includes(guess[i])) {
                 response.push('🟨'); // WRONG
 
@@ -99,14 +90,10 @@ export class Engine {
 
             } else {
                 response.push('⬛'); // ABSENT
-
             }
-
         }
                     
         let data = response.join(' ').toString();
         return data;
-
     }
-
 }
