@@ -1,55 +1,63 @@
 {
-  "name": "wordle.engine",
-  "homepage": "https://github.com/AmitKumarHQ/wordle.engine/",
-  "description": "An Advanced wordle engine",
-  "version": "0.0.0-development",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "types": "dist/@types",
-  "keywords": [
-    "wordle",
-    "discord.js",
-    "engine",
-    "game"
-  ],
-  "scripts": {
-    "test": "npm run build",
-    "start": "node dist/index.js",
-    "dev": "nodemon dist/index.js",
-    "build": "tsc",
-    "watch": "tsc -w",
-    "prepare": "npm run build",
-    "publish": "npm publish --access public",
-    "semantic-release": "semantic-release",
-    "commit-cz": "git cz"
-  },
-  "files": [
-    "dist/**/*"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AmitKumarHQ/wordle.engine.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AmitKumarHQ/wordle.engine/issues"
-  },
-  "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0",
-    "semantic-release": "^19.0.3"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+    "name": "wordle.engine",
+    "homepage": "https://github.com/AmitKumarHQ/wordle.engine/",
+    "description": "An Advanced wordle engine",
+    "version": "0.0.0-development",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/@types",
+    "type": "module",
+    "keywords": [
+        "wordle",
+        "discord.js",
+        "engine",
+        "game"
+    ],
+    "scripts": {
+        "test": "npm run build",
+        "start": "node dist/index.js",
+        "dev": "nodemon dist/index.js",
+        "build": "tsc",
+        "watch": "tsc -w",
+        "prepare": "npm run build",
+        "publish": "npm publish --access public",
+        "semantic-release": "semantic-release",
+        "commit-cz": "git cz"
+    },
+    "files": [
+        "dist/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AmitKumarHQ/wordle.engine.git"
+    },
+    "bugs": {
+        "url": "https://github.com/AmitKumarHQ/wordle.engine/issues"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.33.0",
+        "@typescript-eslint/parser": "^5.33.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint": "^8.21.0",
+        "eslint-config-node": "^4.1.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.7.1",
+        "semantic-release": "^19.0.3"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "release": {
+        "branches": [
+            "master",
+            "next"
+        ]
+    },
+    "publishConfig": {
+        "access": "public"
     }
-  },
-
-  "release": {
-    "branches": [
-      "master",
-      "next"
-    ]
-  },
-  "publishConfig": {
-    "access": "public"
-  }
 }
